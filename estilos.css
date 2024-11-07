@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'UrbanJungleDEMO';
+    src: url('fonts/UrbanJungleDEMO.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Danger-Zone-Warning';
+    src: url('fonts/Danger-Zone-Warning.ttf') format('truetype');
+}
+
+
+body{
+	background-image : url("imagenes/2.jpg") ;
+	background-color: black;
+ font-family: 'Urban Jungle', sans-serif; /* Aplica la fuente al cuerpo de la página */  
+ background-size: cover;
+    
+}
+
+.Inicio{
+	height:auto;
+	width:100%;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	margin-top:14%;
+	align-items:flex-end;
+	font-family: 'Danger-Zone-Warning', sans-serif;
+
+}
+
+h1{
+	font-size:50px;
+	color:#e6e6e6;
+    font-family: 'UrbanJungleDEMO', sans-serif;
+ text-shadow:4px 7px 2px #666666;
+	margin-right:2%;
+	margin-top:0px;
+	margin-bottom:0px;
+
+}
+h2{
+	font-size:47px;
+	color:#e6e6e6;
+    font-family: 'UrbanJungleDEMO', sans-serif;
+ text-shadow:4px 7px 2px #666666;
+	margin-right:4%;
+	margin-top:0px;
+	
+	
+}
+.iniciar{
+ 
+	font-size:30px;
+    font-family: 'Danger-Zone-Warning';
+	color:#e6e6e6;
+	margin-right:2%;
+	text-shadow:2px 2px 4px #666666;
+	margin-bottom:2%;
+	text-decoration:none;
+	font-family: 'Danger-Zone-Warning', sans-serif;
+
+
+
+}
+.contacto{
+		font-size:30px;
+    font-family: 'Danger-Zone-Warning';
+	color:#e6e6e6;
+		margin-right:2%;
+
+	text-shadow:2px 2px 4px #666666;
+	
+		margin-bottom:2%;
+	text-decoration:none;
+
+
+	
+	
+	
+}
+.terminos{
+	
+		font-size:30px;
+    font-family: 'Danger-Zone-Warning';
+	color:#e6e6e6;
+		margin-right:2%;
+	text-decoration:none;
+
+	text-shadow:2px 2px 4px #666666;
+
+}
+a:link , .contacto , .iniciar {
+	color:white;
+	
+	
+	
+	
+}
+
+a:hover{
+	
+	color:black;
+	background-color:white;
+	font-size:32px;
+	border-radius:10px;
+	padding: .5%;
+	transition: .5s;
+	
+	
+	
+	
+}
+
